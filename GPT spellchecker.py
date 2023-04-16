@@ -18,14 +18,14 @@ from langchain.prompts.chat import (
 )
 
 #openai vars  
-orgKey  = "org-3JQu0K94U1KbORZ0YZ4Ck7RV"
-apiKey = "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"
+orgKey  = ""
+apiKey = ""
 completion_model = 'gpt-4'
 
 #airtabel vars
-airtable_api_key = 'patoU8CMCcKYFffVG.56d4c133868eec8102685208259678e69d13dc4a6895cdd9391f47dfea0a878a'
-base_id = "appi16jkg9KC8ZlHG"
-table_name = "Production Pipeline"
+airtable_api_key = ''
+base_id = ""
+table_name = ""
 
 #count length of words in tokens
 def tiktoken_len(text):
