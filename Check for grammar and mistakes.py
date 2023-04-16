@@ -3,9 +3,9 @@ from time import sleep
 import requests
 import json
 
-airtable_api_key = 'patoU8CMCcKYFffVG.56d4c133868eec8102685208259678e69d13dc4a6895cdd9391f47dfea0a878a'
-base_id = "appi16jkg9KC8ZlHG"
-table_name = "Production Pipeline"
+airtable_api_key = ''
+base_id = ""
+table_name = ""
 
 
 
@@ -29,8 +29,8 @@ def check_text_for_grammar_mistakes(text, api_url, api_key=None, username=None, 
 
 # languagetool vars
 api_url = "https://api.languagetoolplus.com/v2/check"
-api_key = "60c1a3180383118d"
-username = "fabian@digital-verkaufen-lernen.de"
+api_key = ""
+username = ""
 
 
 
